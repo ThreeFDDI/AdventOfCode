@@ -42,6 +42,7 @@ def bit_calc(diag_logs, matched):
     print(f"least common {least_common}")
     return most_common, least_common, matched, bit_counts
 
+
 def tally_bit(diag_logs, matched, bit_place):
 
     most_common = ""
